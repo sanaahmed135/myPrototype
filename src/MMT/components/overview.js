@@ -16,23 +16,16 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-require("./App.css");
-var MMT_1 = __importDefault(require("./MMT"));
-// import './react-bootstrap-table2.min.css';
-var App = /** @class */ (function (_super) {
-    __extends(App, _super);
-    function App() {
+var OverView = /** @class */ (function (_super) {
+    __extends(OverView, _super);
+    function OverView() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    App.prototype.render = function () {
-        return (React.createElement("div", { className: "App" },
-            React.createElement(MMT_1.default, null)));
+    OverView.prototype.render = function () {
+        return (React.createElement("div", null, "Hello World"));
     };
-    return App;
+    return OverView;
 }(React.Component));
-exports.default = App;
+exports.default = OverView;

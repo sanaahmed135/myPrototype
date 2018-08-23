@@ -31,6 +31,8 @@ var ImportMilestones = /** @class */ (function (_super) {
             ") }"));
     };
     ImportMilestones.prototype.onImport = function (e) {
+        var myValue;
+        myValue = "Sana";
     };
     return ImportMilestones;
 }(React.Component));

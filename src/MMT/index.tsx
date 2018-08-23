@@ -1,5 +1,6 @@
 import * as React from "react";
 import Auswahl from "./components/auswahl";
+import OverView from "./components/overview";
 
  interface IState {
     value : string
@@ -22,6 +23,7 @@ export default class MMT extends React.Component<any,IState> {
                 <br/>
                 {/* <button onClick={this.onClickEvent}> Show Me Selected Project</button> */}
                 <div>{this.state.value}</div>
+                <OverView/>
             </div>
         );
     }
