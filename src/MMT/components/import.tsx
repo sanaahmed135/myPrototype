@@ -22,6 +22,7 @@ export default class ImportMilestones extends React.Component<IImportProps,{}> {
 
 
     private onImport(e : React.ChangeEvent<any>) : void {
-
+            let myValue : string;
+            myValue="Sana";
     }
 }
